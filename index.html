@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link Animate CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!--SEO - Optimizacion de busqueda-->
+    <meta name="keywords" content="localización, traducciones, tecnologia-automatizacion, profesionalidad, software, aplicaciones-moviles, web-comercio electrónico, aprendizaje electrónico">
+    <meta name="description" content="Conoce BASH, la empresa de localizacion de contenido con mas proyeccion de latinoamerica">
+
+    <!--link del boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    <!--link del css-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--link de sweetalert-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!--link de fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    
+    <title>Servicios</title>
+</head>
+<body>
+    <!-- encabezado -->
+    <header>
+      <nav>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="navbar-brand" href="index.html">
+              <img src="img/Bash - Copy.png" alt="logo de la empresa">
+            </a>
+          </li>
+          <li class="nav-item-dos">
+            <a class="carrito" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="black" class="bi bi-cart-check-fill" viewBox="0 0 16 16">
+                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-1.646-7.646-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L8 8.293l2.646-2.647a.5.5 0 0 1 .708.708z"/>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- contenido principal-->
+    <section id="producto-contenedores">
+        <div id="descubriendo-dos" class="contenido-ocho">
+            <h3>SERVICIOS</h3>
+            <h2>Servicios globales de traducción del cliente de principio a fin</h2>
+        </div>
+        <div class="industrias-tarjetas" id="servicios-contenedor" >
+          
+        </div>
+    </section>
+
+    <section class="modal">
+      <div class="modal__container">
+          <h2 class="modal__title">Carrito</h2>
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="Black" class="bi bi-cart-check-fill" viewBox="0 0 16 16">
+            <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-1.646-7.646-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L8 8.293l2.646-2.647a.5.5 0 0 1 .708.708z"/>
+          </svg>
+          <div id="carrito-contenedor" class="">
+
+          </div>
+          <p class="modal__paragraph">Precio Total: $<span id="precio-total"></span></p>
+          <a href="#" class="modal__close">OK</a>
+      </div>
+    </section>
+
+    <script src="stock.js"></script>
+    <script src="js/getData.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/pintar.js"></script>
+    <script src="js/index.js"></script>
+    <!--link del script JS boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

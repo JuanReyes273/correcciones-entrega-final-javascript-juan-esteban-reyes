@@ -1,0 +1,85 @@
+const serviciosLocalizacion = [
+    {
+        id: 1,
+        nombre: "E-commerce",
+        tipo: "servicio",
+        descripcion: "Proyectar un ambiente local cuando se tiene una audiencia global puede parecer una tarea imposible, pero con nuestros conectores e integraciones web, podemos hacer realidad ese sueño.",
+        precio: 200,
+        precioP: "200$/h",
+        img:"img/bag-fill.svg",
+        imgCarrito:"img/cart-fill.svg",
+        horas: 1,
+    },
+
+    {
+        id: 2,
+        nombre: "Aplicaciones moviles",
+        tipo: "servicio",
+        descripcion: "Maximice su visibilidad global y multiplique las descargas mediante innovadores servicios de localización adaptados a los mercados de destino.",
+        precio: 350,
+        precioP: "350$/h",
+        img:"img/phone-fill.svg",
+        imgCarrito:"img/cart-fill.svg",
+        horas: 1,
+    },
+
+    {
+        id: 3,
+        nombre: "Softawre",
+        tipo: "servicio",
+        descripcion: "Lleve su software a una audiencia global, pero hágalo sentir local. Vamos más allá de los servicios de traducción, adaptando culturalmente sus programas para que pueda triunfar en nuevos mercados.",
+        precio: 300,
+        precioP: "300$/h",
+        img:"img/code-slash.svg",
+        imgCarrito:"img/cart-fill.svg",
+        horas: 1,
+    },
+
+    {
+        id: 4,
+        nombre: "Videos",
+        tipo: "servicio",
+        descripcion: "Lleve su marca al mercado con un audio impecable. Hemos grabado miles de horas: nuestra práctica hace que sus productos sean perfectos.",
+        precio: 250,
+        precioP: "250$/h",
+        img:"img/camera-video-off-fill.svg",
+        imgCarrito:"img/cart-fill.svg",
+        horas: 1,
+    },
+
+    {
+        id: 5,
+        nombre: "Documentos",
+        tipo: "servicio",
+        descripcion: "Entregue traducciones precisas de documentos de gran volumen de forma rápida y rentable con los servicios de localización de documentos precisos y basados en IA de Bash.",
+        precio: 100,
+        precioP: "100$/h",
+        img:"img/file-text-fill.svg",
+        imgCarrito:"img/cart-fill.svg",
+        horas: 1,
+    },
+
+    {
+        id: 6,
+        nombre: "Aprendizaje Electronico",
+        tipo: "servicio",
+        descripcion: "El conocimiento no conoce fronteras, y compartirlo tampoco debería hacerlo. Localice sus programas educativos en línea en cualquier idioma y en cualquier país con nuestros equipos de expertos.",
+        precio: 200,
+        precioP: "200$/h",
+        img:"img/person-vcard-fill.svg",
+        imgCarrito:"img/cart-fill.svg",
+        horas: 1,
+    },
+
+    {
+        id: 7,
+        nombre: "Juegos",
+        tipo: "servicio",
+        descripcion: "Actualmente hay más de 2.500 millones de video jugadores activos en todo el mundo. ¿Pero juegan a sus juegos? Globalice su audiencia localizando sus juegos.",
+        precio: 300,
+        precioP: "300$/h",
+        img:"img/controller.svg",
+        imgCarrito:"img/cart-fill.svg",
+        horas: 1,
+    }
+]
